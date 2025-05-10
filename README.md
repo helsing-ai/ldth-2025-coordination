@@ -33,6 +33,8 @@ a solution.
 We provide [a protobuf schema] that can be used to generate a client to interact
 with our web service.
 
+The challenge server is running at 172 dot 237 dot 124 dot 96, port 21234.
+
 #### Authentication
 
 For the challenge, we've enabled a "Bring Your Own Token" authentication model.
