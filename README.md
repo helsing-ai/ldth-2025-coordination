@@ -45,11 +45,11 @@ ensure you reuse the same value for all requests you make.
 
 #### The simulation
 
-The simulation runs in a 2D environment, bounded by a square of 100 by 100
-units. All entities are spawned within this region, and the target will never
-leave it, but your units might if they drift off. There are some simplified
-physics features, so take inertia into account when planning your navigation.
-Units can accelerate in any direction.
+The simulation runs in a 2D environment, bounded by a square of 200 by 200
+units, centered around (0, 0). All entities are spawned within this region, and
+the target will never leave it, but your units might if they drift off. There
+are some simplified physics features, so take inertia into account when planning
+your navigation. Units can accelerate in any direction.
 
 We have implemented the following entities:
 
